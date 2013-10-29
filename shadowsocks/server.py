@@ -127,7 +127,7 @@ class Socks5Server(SocketServer.StreamRequestHandler):
 def main():
     global SERVER, PORT, KEY, METHOD, IPv6
  
-    logging.basicConfig(level=logging.DEBUG,
+    logging.basicConfig(level=logging.CRITICAL,
                         format='%(asctime)s %(levelname)-8s %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S', filemode='a+')
    
